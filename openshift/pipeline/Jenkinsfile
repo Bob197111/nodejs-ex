@@ -1,6 +1,6 @@
 node('nodejs') {
   stage 'build'
-  openshiftBuild(buildConfig: 'nodejs-ex', showBuildLogs: 'true')
+  openshiftBuild(buildConfig: 'nodejs-ex-bob', showBuildLogs: 'true')
   stage 'deploy'
-  openshiftDeploy(deploymentConfig: 'nodejs-ex')
+  openshiftDeploy(deploymentConfig: 'nodejs-ex-bob')
 }
