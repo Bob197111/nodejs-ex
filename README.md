@@ -29,6 +29,8 @@
 <!-- tocstop -->
 
 ## Node.js sample app on OpenShift!
+## Adapted RL Dec 2019
+## executed on Visual Studio 2019; PC-OBEN
 -----------------
 
 This example will serve a welcome page and the current hit count as stored in a database.
